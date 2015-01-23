@@ -1,3 +1,16 @@
-<h2 id="title">Welcome to Ember.js</h2>
 
-{{outlet}}
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,900' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="app/styles/app.css">
+
+
+<div class="input">
+  <h1>Enter Markdown here. . .</h1>
+  {{textarea value=markdown placeholder="Enter your name"}}
+</div>
+<div class="output">
+  <h1>. . .and it renders here!</h1>
+  <div class="markdownOut">
+
+  {{showdown-addon markdown}}
+  </div>
+</div>

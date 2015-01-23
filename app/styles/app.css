@@ -1,3 +1,54 @@
+
+
 html, body {
+  height: 95vh;
+  width: 100%;
   margin: 20px;
+}
+
+h1 {
+  font-family: "Roboto";
+  font-weight: 300;
+
+
+}
+
+.input {
+  width: 48%;
+  height: 90vh;
+  box-sizing: border-box;
+  margin: 0 auto;
+  float: left;
+  text-align: center;
+  display: inline-block;
+  box-shadow: .1px 1px .3px  rgba(156, 156, 156, 0.40);
+}
+
+.output {
+  width:48%;
+  height: 90vh;
+  float: left;
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+  box-sizing: border-box;
+  font-family: "Roboto";
+  box-shadow: -.1px 1px .3px  rgba(156, 156, 156, 0.40);
+}
+
+textarea {
+  height: 75%;
+  width: 75%;
+}
+
+.markdownOut {
+  text-align: left;
+  padding: 10px;
+  width:75%;
+  height: 75%;
+  overflow: auto;
+  margin: 0 auto;
+}
+
+p {
 }
